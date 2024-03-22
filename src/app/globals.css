@@ -49,8 +49,24 @@ table {
 
 
 
+
+
+
+
+ /* css de vdd :) */
+
+html{
+	font-size: 62.5%;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+}
+
+
 h1 {
-  font-size: large;
+  font-size: 4rem;
 }
 
 h2 {
@@ -59,4 +75,19 @@ h2 {
 
 h3 {
   font-size: small;
+  font-weight: bold;
+}
+
+p {
+	font-size: 2rem;
+}
+
+label {
+	font-size: 1.6rem;
+}
+
+@media screen and (max-width: 780px){
+	html{
+		font-size: 50%;
+	}
 }
